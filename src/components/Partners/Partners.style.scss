@@ -1,0 +1,133 @@
+.trusted-by {
+    padding: 4rem 0;
+  
+    &__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+  
+    &__title {
+      text-align: center;
+      color: black;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 3rem;
+      opacity: 0.8;
+  
+      @media (max-width: 768px) {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+  
+      @media (max-width: 576px) {
+        font-size: 1.25rem;
+      }
+    }
+  
+    &__logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+  
+      @media (max-width: 768px) {
+        gap: 2rem;
+      }
+  
+      @media (max-width: 576px) {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+    }
+  
+    &__logo {
+      flex: 0 1 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+  
+      img {
+        max-height: 40px;
+        width: auto;
+        object-fit: contain;
+        transition: opacity 0.3s ease;
+  
+        @media (max-width: 768px) {
+          max-height: 30px;
+        }
+  
+        @media (max-width: 576px) {
+          max-height: 25px;
+        }
+      }
+  
+      &:hover {
+        transform: translateY(-5px);
+  
+        img {
+          opacity: 1;
+        }
+      }
+    }
+  
+    // Global responsive adjustments
+    @media (max-width: 1024px) {
+      padding: 3rem 0;
+  
+      &__container {
+        padding: 0 1.5rem;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      padding: 2.5rem 0;
+  
+      &__logos {
+        gap: 2rem;
+      }
+  
+      &__title {
+        font-size: 1.5rem;
+      }
+    }
+  
+    @media (max-width: 576px) {
+      padding: 2rem 0;
+  
+      &__logos {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+  
+      &__logo {
+        width: 100%;
+        text-align: center;
+  
+        img {
+          max-height: 25px;
+        }
+      }
+  
+      &__title {
+        font-size: 1.25rem;
+      }
+    }
+  
+    @media (max-width: 375px) {
+      &__title {
+        font-size: 1rem;
+      }
+  
+      &__logos {
+        gap: 1rem;
+      }
+  
+      &__logo img {
+        max-height: 20px;
+      }
+    }
+  }
+  

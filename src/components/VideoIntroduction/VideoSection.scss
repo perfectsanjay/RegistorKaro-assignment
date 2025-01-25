@@ -1,0 +1,134 @@
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #153050; // Background color
+    color: #fff;
+    padding: 2rem;
+    gap: 2rem;
+  
+    .content {
+      flex: 1;
+  
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+  
+        @media (max-width: 768px) {
+          font-size: 1.8rem;
+        }
+  
+        @media (max-width: 576px) {
+          font-size: 1.6rem;
+        }
+      }
+  
+      p {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        line-height: 1.5;
+  
+        @media (max-width: 576px) {
+          font-size: 0.9rem;
+        }
+      }
+  
+      .features {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+  
+        .feature {
+          display: flex;
+          align-items: flex-start;
+          gap: 1rem;
+  
+          @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+          }
+  
+          .icon {
+            background-color: #ffaa00;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+  
+            @media (max-width: 576px) {
+              width: 30px;
+              height: 30px;
+              font-size: 1.2rem;
+            }
+          }
+  
+          .text {
+            h3 {
+              font-size: 1.2rem;
+              margin-bottom: 0.5rem;
+  
+              @media (max-width: 576px) {
+                font-size: 1rem;
+              }
+            }
+  
+            p {
+              font-size: 0.9rem;
+              line-height: 1.4;
+  
+              @media (max-width: 576px) {
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .video {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .video-img {
+        width: 640px;
+        height: 420px;
+        border-radius: 8px;
+  
+        @media (max-width: 1024px) {
+          width: 480px;
+          height: 315px;
+        }
+  
+        @media (max-width: 768px) {
+          width: 360px;
+          height: 240px;
+        }
+  
+        @media (max-width: 576px) {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+  
+      .content, .video {
+        flex: unset;
+      }
+  
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+  

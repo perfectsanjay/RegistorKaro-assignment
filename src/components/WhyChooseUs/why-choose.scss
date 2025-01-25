@@ -1,0 +1,148 @@
+.why-section {
+    padding: 60px 20px;
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .header {
+      margin-bottom: 48px;
+      max-width: 800px;
+  
+      .subtitle {
+        color: #FF8A00;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 16px;
+      }
+  
+      .title {
+        color: #1E293B;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        line-height: 1.2;
+      }
+  
+      .description {
+        color: #64748B;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    }
+  
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+  
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  
+    .feature-card {
+      padding: 32px;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      &.red-bg {
+        background-color: #FEF2F2;
+        .icon { color: #EF4444; }
+      }
+  
+      &.green-bg {
+        background-color: #F0FDF4;
+        .icon { color: #22C55E; }
+      }
+  
+      &.blue-bg {
+        background-color: #EFF6FF;
+        .icon { color: #3B82F6; }
+      }
+  
+      &.pink-bg {
+        background-color: #FDF2F8;
+        .icon { color: #EC4899; }
+      }
+  
+      .icon-container {
+        margin-bottom: 16px;
+        
+        .icon {
+          width: 40px;
+          height: 40px;
+          stroke-width: 1.5;
+        }
+      }
+  
+      h3 {
+        color: #1E293B;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+  
+      p {
+        color: #64748B;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+  }
+  
+  // Responsive adjustments
+  @media (max-width: 768px) {
+    .why-section {
+      padding: 40px 16px;
+  
+      .header {
+        .title {
+          font-size: 28px;
+        }
+  
+        .description {
+          font-size: 16px;
+        }
+      }
+  
+      .feature-card {
+        padding: 24px;
+  
+        h3 {
+          font-size: 18px;
+        }
+  
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  
+  // Additional responsive adjustments for smaller screens
+  @media (max-width: 480px) {
+    .why-section {
+      padding: 32px 12px;
+  
+      .header {
+        .title {
+          font-size: 24px;
+        }
+      }
+  
+      .features-grid {
+        gap: 16px;
+      }
+    }
+  }
+  
+  

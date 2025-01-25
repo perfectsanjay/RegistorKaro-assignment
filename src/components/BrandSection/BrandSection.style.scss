@@ -1,0 +1,35 @@
+.brand-section {
+    padding: 40px 20px;
+    background-color: #ffffff; 
+    text-align: center;
+  
+    .brands {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px; /* Adjusted for smaller screens */
+      flex-wrap: wrap; 
+  
+      img {
+        max-width: 135px;
+        height: 48px;
+        transition: all 0.2s ease; 
+  
+        @media (max-width: 1024px) {
+          max-width: 100px;
+          height: 40px;
+        }
+  
+        @media (max-width: 768px) {
+          max-width: 80px;
+          height: 32px;
+        }
+  
+        @media (max-width: 480px) {
+          max-width: 60px;
+          height: 24px;
+        }
+      }
+    }
+  }
+  

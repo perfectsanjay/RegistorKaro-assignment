@@ -1,0 +1,135 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    gap: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    &__logo {
+      display: flex;
+      align-items: center;
+  
+      &-image {
+        max-height: 40px;
+        width: auto;
+        cursor: pointer;
+      }
+    }
+  
+    &__toggle-checkbox {
+      display: none; /* Hidden for larger screens */
+    }
+  
+    &__toggle-label {
+      display: none; /* Hidden for larger screens */
+      cursor: pointer;
+      font-size: 1.5rem;
+      color: #333333;
+  
+      &:hover {
+        color: #007bff;
+      }
+    }
+  
+    &__links {
+      display: flex; /* Always visible on screens 768px and above */
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+      margin: 10px;
+      padding: 0;
+  
+      li {
+        a {
+          text-decoration: none;
+          color: #333333;
+          font-size: 1rem;
+          font-weight: 500;
+          transition: color 0.3s ease;
+  
+          &:hover {
+            color: #007bff;
+          }
+        }
+      }
+  
+      .navbar__search {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+  
+        &-icon {
+          font-size: 1.2rem;
+          color: #333333;
+          transition: color 0.3s ease;
+  
+          &:hover {
+            color: #007bff;
+          }
+        }
+      }
+    }
+  
+    &__cta {
+      background-color: #ff9f1a;
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #e68a00;
+      }
+    }
+  
+    /* Responsive Styles */
+    @media (max-width: 767px) {
+      &__toggle-label {
+        display: flex; /* Show toggle button on small screens */
+      }
+  
+      &__links {
+        display: none; /* Hide links by default on small screens */
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        margin: 2px;
+  
+        li {
+          margin: 0.5rem 0;
+          text-align: left;
+          width: 100%;
+          padding: 0.5rem 1rem;
+        }
+  
+        a {
+          display: block;
+          width: 100%;
+        }
+      }
+  
+      &__toggle-checkbox:checked ~ .navbar__links {
+        display: flex; /* Show links when toggled */
+      }
+  
+      &__cta {
+        width: 40%; /* Full-width CTA for mobile */
+        margin: 1rem auto;
+        text-align: center;
+      }
+    }
+  }
+  
