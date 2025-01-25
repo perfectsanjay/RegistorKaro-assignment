@@ -9,7 +9,7 @@ const allBlogs = [
     title: 'Small business & Startup',
     description: 'Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?',
     tags: ['Tax & Audit', 'Management'],
-    image: 'public/images/Image.png'
+    image: '/images/Image.png'
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const allBlogs = [
     title: 'Scale-Up Company Offer',
     description: 'Mental models are simple expressions of complex processes or relationships.',
     tags: ['Tax', 'Research', 'Compliance'],
-    image: 'public/images/Image (1).png',
+    image: '/images/Image (1).png',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const allBlogs = [
     title: 'Growing Business Package',
     description: 'Introduction to Wireframing and Its Principles. Learn from the best in the Industry.',
     tags: ['Audit', 'Money Back'],
-    image: 'public/images/Image (2).png',
+    image: '/images/Image (2).png',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const allBlogs = [
     title: 'Scale-Up Company Offer',
     description: 'Collaboration can make our teams stronger, and our individual designs better.',
     tags: ['Money', 'Management'],
-    image: 'public/images/Image (3).png',
+    image: '/images/Image (3).png',
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const allBlogs = [
     title: 'Scale-Up Company Offer',
     description: 'JavaScript frameworks make development easy with extensive features and functionalities.',
     tags: ['Tax Return', 'News', 'Audit'],
-    image: 'public/images/Image (4).png',
+    image: '/images/Image (4).png',
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const allBlogs = [
     title: 'Scale-Up Company Offer',
     description: 'Starting a community doesn’t need to be complicated, but how do you get started?',
     tags: ['Private Limited Company', 'Customer Success'],
-    image: 'public/images/Image (5).png',
+    image: '/images/Image (5).png',
   },
 ];
 

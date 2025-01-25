@@ -12,14 +12,14 @@ const MobileAppSection = () => {
         <p>Get the App</p>
         <div className="app-buttons">
           <a href="#" className="app-button">
-            <img src="public/images/applelogo.png" alt="Apple Logo" />
+            <img src="/images/applelogo.png" alt="Apple Logo" />
             <div>
               <span>Get it on</span>
               <strong>App Store</strong>
             </div>
           </a>
           <a href="#" className="app-button">
-            <img src="public/images/Vector.png" alt="Google Play Logo" />
+            <img src="/images/Vector.png" alt="Google Play Logo" />
           
             <div>
                 
@@ -30,7 +30,7 @@ const MobileAppSection = () => {
         </div>
        
       </div>
-      <div className="phoneImg"><img className="phone" src="public/images/phoneImg.png" alt="phoneImg" /></div>
+      <div className="phoneImg"><img className="phone" src="/images/phoneImg.png" alt="phoneImg" /></div>
     </div>
   );
 };

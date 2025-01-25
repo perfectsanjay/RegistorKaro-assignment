@@ -43,7 +43,7 @@ const AboutSection = () => {
         </div>
         <div className="about__image-container">
           <img
-            src="public/images/aboutus.png"
+            src="/images/aboutus.png"
             alt="Register Karo team"
             className="about__image"
           />

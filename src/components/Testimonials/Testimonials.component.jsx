@@ -14,7 +14,7 @@ function HappyClients() {
       </div>
 
       <div className="img-container">
-        <img className="pagination" src="public/images/Pagination.png" />
+        <img className="pagination" src="/images/Pagination.png" />
       </div>
 
       <button className="show-more">

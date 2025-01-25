@@ -43,7 +43,7 @@ const VideoSection = () => {
       </div>
       <div className="video">
         <div className="video-thumbnail">
-          <img className="video-img" src="public/images/videoSection.png" alt="" />
+          <img className="video-img" src="/images/videoSection.png" alt="" />
         </div>
       </div>
     </div>

@@ -3,27 +3,27 @@ const TrustedBy = () => {
     const companies = [
       {
         name: "Oracle",
-        logo: "/public/images/oracle.png",
+        logo: "/images/oracle.png",
         class: "oracle",
       },
       {
         name: "Morpheus",
-        logo: "/public/images/morpheus.png",
+        logo: "/images/morpheus.png",
         class: "morpheus",
       },
       {
         name: "Samsung",
-        logo: "public/images/samsung.png",
+        logo: "/images/samsung.png",
         class: "samsung",
       },
       {
         name: "Monday.com",
-        logo: "public/images/monday.png",
+        logo: "/images/monday.png",
         class: "monday",
       },
       {
         name: "Segment",
-        logo: "public/images/segment.png",
+        logo: "/images/segment.png",
         class: "segment",
       },
     ];

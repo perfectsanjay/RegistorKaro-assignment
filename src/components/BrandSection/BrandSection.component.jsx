@@ -1,11 +1,11 @@
 import React from "react";
 import "./BrandSection.style.scss";
-import coinbaseLogo from "/public/images/Company logo.png"; 
-import spotifyLogo from "/public/images/spotify.png";
-import slackLogo from "/public/images/Company logo (1).png";
-import dropboxLogo from "/public/images/Company logo (2).png";
-import webflowLogo from "/public/images/webflow.png";
-import zoomLogo from "/public/images/Company logo (4).png";
+import coinbaseLogo from "/images/Company logo.png"; 
+import spotifyLogo from "/images/spotify.png";
+import slackLogo from "/images/Company logo (1).png";
+import dropboxLogo from "/images/Company logo (2).png";
+import webflowLogo from "/images/webflow.png";
+import zoomLogo from "/images/Company logo (4).png";
 
 const BrandSection = () => {
   const brands = [
