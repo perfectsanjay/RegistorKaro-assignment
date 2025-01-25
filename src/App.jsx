@@ -11,7 +11,7 @@ import VideoSection from "./components/VideoIntroduction/VideoIntroduction.compo
 import HappyClients from "./components/Testimonials/Testimonials.component";
 import StepsComponent from "./components/Pricing/Pricing.component";
 import BlogSection from "./components/Blog/Blogs.component";
-import FAQSection from "./components/FAQ/Faq.component";
+import Faq from "./components/FAQ/Faq.component";
 import MobileAppSection from "./components/MobileApp/MobileApp.component";
 import StatisticsSection from "./components/StatisticSection/Statistic.component";
 import EmailSection from "./components/EmailSection/EmailSection.component";
@@ -35,7 +35,7 @@ const App = () => {
       <HappyClients/>
       <StepsComponent />
       <BlogSection />
-      <FAQSection/>
+      <Faq/>
       <MobileAppSection/>
       <StatisticsSection/>
       <EmailSection/>
