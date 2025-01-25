@@ -53,7 +53,7 @@ const Hero = () => {
 
         <div className="hero__illustration">
           <img
-            src="/public/images/herosection.png"
+            src="/images/herosection.png"
             alt="Business Compliance Illustration"
           />
         </div>

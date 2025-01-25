@@ -9,7 +9,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="navbar__logo">
         <img
-          src="/public/images/companyLogo.png" 
+          src="/images/companyLogo.png" 
           alt="RegisterKaro Logo"
           className="navbar__logo-image"
         />
