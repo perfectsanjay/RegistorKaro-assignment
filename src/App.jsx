@@ -17,6 +17,7 @@ import StatisticsSection from "./components/StatisticSection/Statistic.component
 import EmailSection from "./components/EmailSection/EmailSection.component";
 import BrandSection from "./components/BrandSection/BrandSection.component";
 import Footer from "./components/Footer/Footer.component";
+import FormComponent from "./components/form/form.component";
 
 
 import "./App.css";
@@ -41,6 +42,7 @@ const App = () => {
       <EmailSection/>
       <BrandSection/>
       <Footer /> 
+     <FormComponent />
     </div>
   );
 };
